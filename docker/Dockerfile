@@ -1,6 +1,6 @@
 FROM lifebitai/bcftools:1.9
 LABEL authors="phil@lifebit.ai" \
-      description="Docker image containing dependencies for GEL GWAS"
+      description="Docker image containing dependencies for BIOBANK GWAS"
 
 RUN apt-get update && \
     apt-get install unzip -y
